@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
-
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import Nav from './Nav'
 import Home from './Home'
-import Resume from './Resume'
+// import Resume from './Resume'
+import Resume1 from './Resume1'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -15,18 +16,17 @@ import '../styles/App.css';
 function App() {
   return (
     <div className="App">
-      <header>
+      <Layout>
+      <Header>
         <Nav />
-      </header>
+      </Header>
 
       <Route exact path='/'>
         <Home />
       </Route>
 
       <Route exact path='/resume'>
-        <PDFViewer>
-          <Resume />
-        </PDFViewer>
+          <Resume1 />
       </Route>
 
       <Route exact path='/portfolio'>
@@ -40,6 +40,7 @@ function App() {
       <div>
         <Footer />
       </div>
+      </Layout>
     </div>
   );
 }
