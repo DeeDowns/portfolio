@@ -1,32 +1,28 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
-import Nav from './Nav'
+import { Route, Switch } from 'react-router-dom'
+import Navigation from './Navigation'
 import Home from './Home'
 // import Resume from './Resume'
-import Resume1 from './Resume1'
+import Resume from './Resume'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
-import Footer from './Footer'
-
-import { PDFViewer } from '@react-pdf/renderer';
 
 import '../styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-      <Header>
-        <Nav />
-      </Header>
-
+      
+      <header>
+        <Navigation />
+      </header>
+      
       <Route exact path='/'>
         <Home />
       </Route>
 
       <Route exact path='/resume'>
-          <Resume1 />
+        <Resume />
       </Route>
 
       <Route exact path='/portfolio'>
@@ -37,10 +33,9 @@ function App() {
         <Contact />
       </Route>
 
-      <div>
-        <Footer />
-      </div>
-      </Layout>
+     
+      
+      
     </div>
   );
 }

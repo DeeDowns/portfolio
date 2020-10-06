@@ -1,39 +1,246 @@
-body {
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+/*** Nav ****/
+header {
+  width: 100%;
+  font-size: 2rem;
+  padding: 2% 0%;
+  background: #27221F;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5%;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+
+}
+
+.nav-link:hover{
+  color: #833fb2
+}
+
+
+/*Home*/
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-image: url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.photo-container {
+  width: 20%;
+  margin: 5%;
+  
+}
+
+.photo-container img {
+  border-radius: 100%
+}
+
+.blurb-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #27221F;
+  color: white;
+  width: 80%;
+  margin: 2% 0 10% 0;
+  padding: 2%
+}
+
+.blurb-container h1 {
+  font-size: 3.5rem
+}
+
+.blurb-container p {
+  padding: 1%;
+  text-align: center;
+  font-size: 2rem
 }
 
 /*Resume*/
 .resume-container {
   width: 90%;
-}
-
-.resume-grid {
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 5%;
 }
 
 .info-section {
-  /* background: #27221F; */
   padding: 2%;
-  /* width: 40% */
+  width: 40%
 }
 
-.edu-ex-section {
+.info-section hr {
+  border-top: 3px solid#833fb2;
+  width: 70%
+}
+
+.edu-section {
   background: #27221F;
   color: white;
   padding: 2%;
-  /* width: 40% */
+  width: 60%
 }
+
+.edu-section hr {
+  border-top: 3px solid  #833fb2;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.skills-container li {
+  width: 50%;
+}
+
+/**** Contact ****/
+.contact-container {
+  width: 100%;
+  /* margin: 3%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-form h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 2%;
+}
+
+.contact-form {
+  width: 40%;
+  margin: 5%;
+  font-size: 2rem;
+  background: white;
+  padding: 2%;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+button .btn {
+  font-size: 2.2rem
+}
+
+
+
+/**** Portfolio ****/
+.portfolio-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3%
+}
+
+.portfolio-container h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.card {
+  width: 20%;
+  margin: 2%;
+ 
+}
+.card-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card-body {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.card-subtitle {
+  padding: 5% 0;
+}
+
+.card-text {
+  padding: 5% 0;
+}
+
+
+
