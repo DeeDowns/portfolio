@@ -1,5 +1,4 @@
 import React from 'react'
-import { Grid, Cell } from 'react-mdl';
 
 const Education = (props) => {
     const { startYear, endYear, schoolName, schoolDescription} = props

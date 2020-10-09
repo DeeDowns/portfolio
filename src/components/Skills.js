@@ -5,16 +5,16 @@ const Skills = () => {
     
     return (
         <div className='skills-container'>
-            <ul>
+            {/* <ul>
                 <li>HTML5</li>
-                <li>CSS</li>
+                <li>CSS3</li>
                 <li>Javascript</li>
                 <li>React</li>
                 <li>Redux</li>
                 <li>Node.js</li>
-                <li>Sqlite</li>
-                <li>Python</li>
-            </ul>
+                <li>SQLite</li>
+            </ul> */}
+            <p>HTML5 | CSS3 | Javascript | React | Node.js | SQLite</p>
         </div>
     )
 }
