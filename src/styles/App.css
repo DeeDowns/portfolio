@@ -10,7 +10,7 @@
 header {
   width: 100%;
   font-size: 2rem;
-  padding: 2% 0%;
+  padding: 1% 0%;
   background: #27221F;
   color: white;
 }
@@ -28,6 +28,10 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.titleHeader img {
+  width: 70%
 }
 
 .nav-item {
@@ -53,7 +57,7 @@ header {
 }
 
 .nav-link:hover{
-  color: #833fb2
+  color: #fadd35
 }
 
 
@@ -74,6 +78,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  
 }
 
 .photo-container {
