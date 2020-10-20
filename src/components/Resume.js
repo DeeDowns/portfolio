@@ -19,7 +19,7 @@ const Resume = () => {
                 <h3>Phone</h3>
                 <p>(352) 470-3501</p>
                 <h3>Email</h3>
-                <p>dee_downs@outlook.com</p>
+                <a href='mailto:dee_downs@outlook.com'>dee_downs@outlook.com</a>
                 <h3>LinkedIn</h3>
                 <a href='https://www.linkedin.com/in/dewandra-downs/'>linkedin.com/in/dewandra-downs </a>
                 <h3>GitHub</h3>
@@ -102,7 +102,6 @@ const Resume = () => {
                         </ul>
                     }
                 />
-                <hr/>
             </div>       
         </div> 
     )

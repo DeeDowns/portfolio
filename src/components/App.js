@@ -1,40 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom'
 import Navigation from './Navigation'
 import Home from './Home'
-// import Resume from './Resume'
 import Resume from './Resume'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
+import Footer from './Footer'
+import { Element } from 'react-scroll'
 
 import '../styles/App.css';
 
 function App() {
+  
+
+//  console.log(window.location.pathname)
+//  console.log(location.pathname)
+
   return (
     <div className="App">
-      
       <header>
         <Navigation />
-      </header>
-      
-      <Route exact path='/'>
-        <Home />
-      </Route>
-
-      <Route exact path='/resume'>
-        <Resume />
-      </Route>
-
-      <Route exact path='/portfolio'>
-        <Portfolio />
-      </Route>
-
-      <Route exact path='/contact'>
-        <Contact />
-      </Route>
-
+      </header> 
+    
      
-      
+      <Element name='home' className='element home'>
+        <Home />
+      </Element>
+
+      <Element name='resume' className='element resume'>
+        <Resume />
+      </Element>
+
+      <hr className='divider'/>
+
+      <Element name='portfolio' className='element portfolio'>
+        <Portfolio />
+      </Element>
+
+      <Element name='contact' className='element contact'>
+        <Contact />
+      </Element>
       
     </div>
   );

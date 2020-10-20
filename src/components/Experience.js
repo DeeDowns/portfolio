@@ -6,13 +6,9 @@ const Experience = (props) => {
 
     return (
        <div className='exp-container'>
-           <div className='exp-years'>
-               <h3>{startYear} - {endYear}</h3>
-           </div>
-           <div className='exp-job-info'>
-               <h3>{jobName}</h3>
-               <p>{jobDescription}</p>
-           </div>
+            <h3>{jobName}</h3>
+            <h3>{startYear} - {endYear}</h3>
+            <div>{jobDescription}</div>
        </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Col, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap'
-
+import Footer from './Footer'
 
 const initialFormValues = {
     name: '',
@@ -65,6 +65,7 @@ const Contact = () => {
                     <Button style={{ fontSize: '1.8rem' }}>Submit</Button>
                 </Col>
             </Form>
+            <Footer/>
         </div>
     )
 }
