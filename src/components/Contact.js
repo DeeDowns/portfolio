@@ -95,7 +95,7 @@ const Contact = () => {
                             type='textarea'
                             name='message'
                             id='message'
-                            placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            placeholder="I'm a Cool Kid, who thinks you're a Cool Kid, we should work together "
                             value={formValues.message}
                             onChange={handleChanges}
                         />
