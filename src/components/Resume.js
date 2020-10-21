@@ -7,7 +7,7 @@ const Resume = () => {
     return (
         <div className='resume-container'>
             <div className='info-section'>
-                <h2 style={{paddingTop: '2em'}}>Dewandra Downs</h2>
+                <h1>Dewandra Downs</h1>
                 <h3 style={{color: 'grey'}}>Full Stack Web Devloper</h3>
 
                 <hr/>
@@ -15,7 +15,7 @@ const Resume = () => {
                 <p>Software Developer with background in customer service and the aviation industry. Experience creating full stack web applications. Team player with strengths in reliability and accuracy. Accustomed to collaborating on distinct teams.</p>
 
                 <hr/>
-                
+                <h2>Contact Info</h2>
                 <h3>Phone</h3>
                 <p>(352) 470-3501</p>
                 <h3>Email</h3>
@@ -25,7 +25,7 @@ const Resume = () => {
                 <h3>GitHub</h3>
                 <a href='https://www.github.com/DeeDowns'>github.com/DeeDowns </a>
                 <hr/>
-                <h2>Skills</h2>
+                <h2>Technical Skills</h2>
                 <Skills />
             </div>
         
@@ -38,13 +38,13 @@ const Resume = () => {
                     schoolDescription={
                         <ul>
                             <li>
-                                Participated in an immersive full time, remote, collaborative and project-based program focused on Full Stack Web Development and Computer Science.
+                                Lambda School is an immersive full time, remote, collaborative and project-based program focused on Full Stack Web Development and Computer Science.
                             </li>
                             <li>
-                                Participated in multiple Build Weeks, in which students (in different stages of the program) are grouped into teams, from different backgrounds (Web Development and Data Science) to build a minimum viable product web application. Students are assigned different roles within their team and tasked with planning, coordinating, collaborating, and programming as a team to execute respective criteria in a span of 4-5 days.
+                                Participated in multiple Build Weeks, in which students were grouped into teams, assigned different roles and tasked with planning, coordinating, collaborating, and programming to create a minimum viable web application.
                             </li>
                             <li>
-                                Participated in Peer Mentor program, in which students are paired with other students who are in the earlier stages of the program. Mentors and mentees meet daily to discuss material learned, any blockers, pair-program, practice mock interviews,  and offer general advice
+                                Partook in Peer Mentor program, in which students were mentors and mentees met daily to discuss learning material, any blockers, pair-program, practice mock interviews, and to offer general advice
                             </li>
                         </ul>
                     }
@@ -58,6 +58,8 @@ const Resume = () => {
                 />
                     <hr />
 
+            </div> 
+            <div className='work-section'>
                 <h2>Experience</h2>
                 <Experience
                     startYear={'March 2016'}
@@ -102,7 +104,7 @@ const Resume = () => {
                         </ul>
                     }
                 />
-            </div>       
+            </div>     
         </div> 
     )
 }
