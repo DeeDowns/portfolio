@@ -32,7 +32,7 @@ const Portfolio = () => {
 
             <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
                 <CardTitle>Project Title</CardTitle>
-                <CardImg src='https://images.unsplash.com/photo-1597892945056-970ae078cff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80'/>
+                <CardImg src='https://imgur.com/VznaxXO.png'/>
                 <CardBody>
                     
                     <CardSubtitle>Project Subtitle</CardSubtitle>
@@ -44,7 +44,7 @@ const Portfolio = () => {
 
             <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
                 <CardTitle>Project Title</CardTitle>
-                <CardImg src='https://images.unsplash.com/photo-1597892945056-970ae078cff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80'/>
+                <CardImg src='https://i.imgur.com/lbMOVsS.png'/>
                 <CardBody>
                     
                     <CardSubtitle>Project Subtitle</CardSubtitle>

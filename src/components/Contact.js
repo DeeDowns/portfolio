@@ -49,7 +49,6 @@ const Contact = () => {
                             onChange={handleChanges}
                         />
                     </Col>
-                   
                 </FormGroup>
                 
                 <FormGroup>
@@ -86,7 +85,7 @@ const Contact = () => {
                     <Label sm={3} >Message</Label>
                     <Col sm={10}>
                         <Input 
-                            style={{ fontSize: '1.8rem', height: '300px'}}
+                            style={{ fontSize: '1.8rem', height: '00px'}}
                             type='textarea'
                             name='message'
                             id='message'

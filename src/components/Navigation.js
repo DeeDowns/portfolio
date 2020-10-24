@@ -51,11 +51,9 @@ const Navigation = () => {
                     >
                         <p>Contact</p>
                     </Link>
-
                 </NavItem>
             </Nav>
         </Navbar>
-   
     )
 }
 

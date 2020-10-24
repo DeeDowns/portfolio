@@ -56,9 +56,8 @@ const Resume = () => {
                     schoolName="University of Florida, Gainesville, FL"
                     schoolDescription="Bachelor of Arts in Anthropology"
                 />
-               
-
             </div> 
+            
             <div className='work-section'>
                 <h2>Experience</h2>
                 <Experience
@@ -77,7 +76,7 @@ const Resume = () => {
                                 Directed customers in the optimal way to store luggage in order to maximize storage space.
                             </li>
                             <li>
-                                Attended online and in-person customer service, conflict resolution, team work and communication trainings to stay up to date with procedures.
+                                Attended online and in-person customer service, conflict resolution, team work and communication training to stay up to date with procedures.
                         </li>
                         </ul>
                     }
@@ -86,7 +85,7 @@ const Resume = () => {
                 <Experience
                     startYear={2015}
                     endYear={2016}
-                    jobName="Recreational Gymnastics Coach, Sun Country Sports Center, Gainesville, FL"
+                    jobName="Gymnastics Coach, Sun Country Sports Center, Gainesville, FL"
                     jobDescription={
                         <ul>
                             <li>
@@ -99,7 +98,7 @@ const Resume = () => {
                                 Maintained fun-filled atmosphere while remaining focused on participant development and safety
                             </li>
                             <li>
-                            Frequented workshops and trainings strengthen knowledge of diverse spotting and coaching techniques in order to maximize athlete performance
+                            Frequented workshops and training to strengthen knowledge of diverse spotting and coaching techniques in order to maximize athlete performance
                             </li>
                         </ul>
                     }

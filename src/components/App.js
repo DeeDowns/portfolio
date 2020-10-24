@@ -10,17 +10,12 @@ import '../styles/App.css';
 
 function App() {
   
-
-//  console.log(window.location.pathname)
-//  console.log(location.pathname)
-
   return (
     <div className="App">
       <header>
         <Navigation />
       </header> 
     
-     
       <Element name='home' className='element home'>
         <Home />
       </Element>

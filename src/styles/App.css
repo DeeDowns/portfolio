@@ -265,10 +265,7 @@ a .active {
 }
 
 
-.edu-section {
-  border-bottom: 3px solid  #833fb2;
-  margin: 3% 0;
-}
+
 
 .edu-section ul,
 .work-section ul {
@@ -325,11 +322,19 @@ a .active {
   .work-section h3 {
     font-size: 1.8rem
   }
+
+  .edu-section {
+    border-bottom: 3px solid  #833fb2;
+  }
 }
 
 @media (max-width: 500px) {
   .resume {
     padding-top: 40%
+  }
+
+  .edu-section {
+    border-bottom: 3px solid  #833fb2;
   }
 }
 

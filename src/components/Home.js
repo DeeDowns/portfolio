@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Home = (props) => {
 
     return (
@@ -16,8 +14,6 @@ const Home = (props) => {
                        Hi, I'm Dewandra Downs (everyone calls me Dee). After working as Flight Attendant 4 years, I decided I wanted to switch up my career and step into Tech. I come from an unconventional background (definitely not what most would considered geared toward tech) and I have always considered myself a creative person but not so much technical, this journey has taught me that the two are not mutually exclusive. After taking a few introductory courses covering the basics of programming, I found that this FINISH SENTENCE. So I took that leap of faith, enrolled in an immersive Bootcamp, where I worked on multipe teams building projects from different developer roles, learning, growing, and crafting my skillset along the way. I am here to soak up as much information as I can dive deeper into my interest into the industry to become a productive member of a team. 
                     </p>
                 </div>
-               
-         
             </div>
         </div>
     )
