@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-import { Col, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap'
+import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import Footer from './Footer'
 
 const initialFormValues = {
@@ -29,11 +29,6 @@ const Contact = () => {
             console.log(error.text);
         });
         setFormValues(initialFormValues)
-    }
-
-    const consoleThis = event => {
-        event.preventDefault()
-        console.log('hi')
     }
 
     return (

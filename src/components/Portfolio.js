@@ -6,7 +6,6 @@ const Portfolio = () => {
 
     return (
         <div className='portfolio-container'>
-            <h1>Projects</h1>
             <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
                 <CardTitle>Project Title</CardTitle>
                 <CardImg src='https://images.unsplash.com/photo-1597892945056-970ae078cff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80'/>

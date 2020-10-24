@@ -1,11 +1,8 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import {
     Navbar,
     Nav,
-    NavLink,
-    NavItem,
-    NavbarText
+    NavItem
   } from 'reactstrap';
 import { Link } from 'react-scroll'
 

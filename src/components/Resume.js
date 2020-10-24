@@ -56,7 +56,7 @@ const Resume = () => {
                     schoolName="University of Florida, Gainesville, FL"
                     schoolDescription="Bachelor of Arts in Anthropology"
                 />
-                    <hr />
+               
 
             </div> 
             <div className='work-section'>

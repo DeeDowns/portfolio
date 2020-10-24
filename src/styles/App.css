@@ -74,6 +74,42 @@ a .active {
   border-bottom: #27221F;
 }
 
+/***HEADER/NAV MEDIA QUERIES****/
+@media (max-width: 800px) {
+  .nav {
+    justify-content: space-around;
+  }
+  .nav .titleHeader img {
+    width: 50%;
+  }
+
+  .nav-link-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav .titleHeader {
+    width: 55%
+  }
+
+  .nav .nav-link-container {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav .nav-item a{
+    margin: 2%;
+  }
+}
+ 
 
 /*HOME SECTION*/
 .home-container {
@@ -130,6 +166,39 @@ a .active {
   font-size: 2rem
 }
 
+/***HOME SECTION MEDIA QUERIES****/
+@media (max-width: 800px) {
+  .photo-container {
+    width: 25%;
+    margin-top: 15%;
+  }
+  .blurb-container {
+    width: 70%;
+  }
+
+  .blurb-container h1 {
+    font-size: 2rem;
+  }
+
+  .blurb-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    padding-top: 30%
+  }
+
+  .home-div .photo-container {
+    width: 40%
+  }
+
+  .home-div .blurb-container {
+    width: 80%;
+  }
+}
+
 /*RESUME SECTION*/
 .resume {
   padding-top: 3%
@@ -140,7 +209,7 @@ a .active {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 5%;
   font-family: 'Montserrat', sans-serif;
   
@@ -160,13 +229,24 @@ a .active {
   font-family: 'Abel', sans-serif;
   font-size: 3rem;
 }
-.info-section h2 {
+
+.info-section h2,
+.edu-section h2,
+.work-section h2 {
+  font-size: 2rem;
   font-weight: bold;
+}
+
+.info-section h3,
+.edu-section h3,
+.work-section h3 {
+  font-size: 1.8rem
 }
 
 .info-section h3 {
   font-weight: bold;
   margin: 2% 0;
+  
 }
 
 .info-section a { 
@@ -184,15 +264,9 @@ a .active {
   align-self: flex-start;
 }
 
-.edu-section h2,
-.work-section h2 {
-  font-family: 'Abel', sans-serif;
-  font-size: 3rem;
-  margin-bottom: 2%;
-}
 
-.edu-section hr {
-  border-top: 3px solid  #833fb2;
+.edu-section {
+  border-bottom: 3px solid  #833fb2;
   margin: 3% 0;
 }
 
@@ -206,14 +280,63 @@ a .active {
   width: 35%
 }
 
-.exp-container h3{
+.exp-container h3,
+.edu-container h3{
   margin: 1%;
+  font-family: 'Abel', sans-serif;
+}
+
+/***RESUME SECTION MEDIA QUERIES****/
+@media (max-width: 800px) {
+  .resume {
+   padding-top: 8%;
+   justify-content: center;
+  }
+
+  .resume-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+  }
+  .info-section,
+  .edu-section,
+  .work-section{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .info-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-section h2,
+  .edu-section h2,
+  .work-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .info-section h3,
+  .edu-section h3,
+  .work-section h3 {
+    font-size: 1.8rem
+  }
+}
+
+@media (max-width: 500px) {
+  .resume {
+    padding-top: 40%
+  }
 }
 
 
 /**** PORTFOLIO SECTION ****/
 .portfolio {
-  padding-top: 3%
+  padding-top: 5%
 }
 .portfolio-container {
   width: 90%;
@@ -223,15 +346,6 @@ a .active {
   justify-content: center;
   align-items: center;
   margin: 3%
-}
-
-.portfolio-container h1 {
-  width: 100%;
-  text-align: center;
-  margin: 4%;
-  font-size: 3.5rem;
-  font-family: 'Abel', sans-serif;
-  text-transform: uppercase;
 }
 
 .card {
@@ -258,10 +372,45 @@ a .active {
   padding: 5% 0;
 }
 
+/***PORTFOLIO SECTION MEDIA QUERIES****/
+@media (max-width: 800px) {
+  .portfolio {
+    padding-top: 13%;
+  }
+  .portfolio-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+    font-family: 'Abel', sans-serif
+  }
+
+  .card-subtitle {
+    font-size: 2rem;
+    padding: 0%
+  }
+
+  .card-body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .portfolio {
+    padding-top: 45%
+  }
+}
+
 /**** CONTACT SECTION ****/
 .contact {
   width: 100%;
-  padding-top: 3%
+  padding-top: 5%
 }
 .contact-container {
   width: 100%;
@@ -303,6 +452,41 @@ a .active {
 button .btn {
   font-size: 2.2rem
 }
+
+/***CONTACT SECTION MEDIA QUERIES****/
+@media (max-width: 800px) {
+.contact {
+  padding-top: 10%
+}
+
+  .contact-form {
+    width: 70%;
+    font-size: 1.8rem;
+  }
+
+  .contact-form h1 {
+    font-size: 2.5rem;
+  }
+
+  .titleHeader img {
+    width: 40%;
+  }
+
+  .nav-link-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    padding-top: 40%
+  }
+
+  .contact-container .contact-form {
+    width: 80%
+  }
+}
+
 
 
 

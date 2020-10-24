@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
-import { Route, Switch } from 'react-router-dom'
+import React from 'react';
 import Navigation from './Navigation'
 import Home from './Home'
 import Resume from './Resume'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
-import Footer from './Footer'
 import { Element } from 'react-scroll'
 
 import '../styles/App.css';
