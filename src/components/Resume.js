@@ -76,7 +76,7 @@ const Resume = () => {
                                 Facilitated communication between cabin crew and flight deck prior to and during flights to ensure safe and smooth operations.
                             </li>
                             <li>
-                                Attended online and in-person customer service, conflict resolution, team work and communication training to stay up to date with procedures.
+                                Attended online and in-person customer service, conflict resolution, teamwork and communication training to stay up to date with procedures.
                         </li>
                         </ul>
                     }

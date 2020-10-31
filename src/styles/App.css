@@ -165,7 +165,7 @@ a .active {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1%;
-  padding: 0 5%;
+  padding: 0 3%;
   line-height: 3rem;
   text-align: justify;
 }
@@ -470,7 +470,7 @@ a .active {
 }
 
 .contact-form {
-  width: 30%;
+  width: 35%;
   margin: 2% 0 1% 0;
   font-size: 1.8rem;
   background: white;
