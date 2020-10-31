@@ -8,7 +8,10 @@ const Resume = () => {
         <div className='resume-container'>
             <div className='info-section'>
                 <h1>Dewandra Downs</h1>
-                <h3>Full Stack Web Developer</h3>
+                <h2>Full Stack Web Developer</h2>
+                <a href='https://drive.google.com/file/d/1XcjJ3hv_IPnl6YKGCHqOTEPetro9w1mN/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                    <h3>PDF</h3>
+                </a>
 
                 <hr/>
 
@@ -38,7 +41,7 @@ const Resume = () => {
                     schoolDescription={
                         <ul>
                             <li>
-                                Lambda School is an immersive full time, remote, collaborative and project-based program focused on Full Stack Web Development and Computer Science.
+                                An immersive full time, remote, collaborative and project-based program focused on Full Stack Web Development and Computer Science.
                             </li>
                             <li>
                                 Participated in multiple Build Weeks, in which students were grouped into teams, assigned different roles and tasked with planning, coordinating, collaborating, and programming to create a minimum viable web application.
