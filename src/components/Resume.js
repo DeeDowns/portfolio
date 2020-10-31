@@ -9,8 +9,8 @@ const Resume = () => {
             <div className='info-section'>
                 <h1>Dewandra Downs</h1>
                 <h2>Full Stack Web Developer</h2>
-                <a href='https://drive.google.com/file/d/1XcjJ3hv_IPnl6YKGCHqOTEPetro9w1mN/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
-                    <h3>PDF</h3>
+                <a href={require('../assets/dewandra_downs_resume-1.pdf')} target='_blank' rel="noopener noreferrer">
+                    PDF Version
                 </a>
 
                 <hr/>

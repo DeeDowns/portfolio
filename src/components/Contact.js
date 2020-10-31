@@ -89,7 +89,7 @@ const Contact = () => {
                             type='textarea'
                             name='message'
                             id='message'
-                            placeholder="I'm a Cool Kid, who thinks you're a Cool Kid, we should work together "
+                            placeholder="I'm a Cool Kid, who thinks you're a Cool Kid, we should work together 😎"
                             value={formValues.message}
                             onChange={handleChanges}
                         />

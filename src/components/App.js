@@ -20,6 +20,7 @@ function App() {
         <Home />
       </Element>
 
+
       <Element name='resume' className='element resume'>
         <Resume />
       </Element>
