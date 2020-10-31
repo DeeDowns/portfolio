@@ -38,7 +38,7 @@ const Contact = () => {
                 <h1>Get In Touch</h1>
                 <FormGroup>
                     <Label sm={3} for='name'>Name</Label>
-                    <Col sm={8}>
+                    <Col sm={10}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
                             type='text'
@@ -53,7 +53,7 @@ const Contact = () => {
                 
                 <FormGroup>
                     <Label sm={3} for='email'>Email</Label>
-                    <Col sm={8}>
+                    <Col sm={10}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
                             type='email'
@@ -68,7 +68,7 @@ const Contact = () => {
                
                 <FormGroup>
                     <Label sm={3} for='subject'>Subject</Label>
-                    <Col sm={8}>
+                    <Col sm={10}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
                             type='text'
