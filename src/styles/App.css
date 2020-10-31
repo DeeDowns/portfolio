@@ -148,7 +148,7 @@ a .active {
   background: #27221F;
   color: white;
   width: 80%;
-  margin: 3% 0;
+  margin: 2% 0;
   padding: 2%
 }
 
@@ -157,13 +157,16 @@ a .active {
   font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
+  
 }
 
 .blurb-container p {
   font-family: 'Montserrat', sans-serif;
-  padding: 1%;
   text-align: center;
-  font-size: 2rem
+  font-size: 2rem;
+  margin-top: 1%;
+  padding: 0 5%;
+  text-align: justify;
 }
 
 /***HOME SECTION MEDIA QUERIES****/
@@ -264,9 +267,6 @@ a .active {
   align-self: flex-start;
 }
 
-
-
-
 .edu-section ul,
 .work-section ul {
   margin: 2% 5% ;
@@ -361,6 +361,7 @@ a .active {
 .card-title {
   font-size: 2rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .card-body {
@@ -371,11 +372,22 @@ a .active {
 
 .card-subtitle {
   padding: 5% 0;
+  border-bottom: 3px solid #007bff;
+  font-size: 1.8rem;
 }
 
 .card-text {
   padding: 5% 0;
+  text-align: left;
+  line-height: 3rem;
 }
+
+.card-link {
+  margin: 0 5%;
+  color: white;
+  font-weight: bold;
+}
+
 
 /***PORTFOLIO SECTION MEDIA QUERIES****/
 @media (max-width: 800px) {
@@ -385,6 +397,12 @@ a .active {
   .portfolio-container {
     flex-direction: column;
     margin: 0 auto;
+  }
+
+  .portfolio-container .card-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
@@ -408,7 +426,11 @@ a .active {
 
 @media (max-width: 500px) {
   .portfolio {
-    padding-top: 45%
+    padding-top: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
   }
 }
 

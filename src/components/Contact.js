@@ -37,7 +37,7 @@ const Contact = () => {
             <Form className='contact-form' onSubmit={sendEmail}>
                 <h1>Get In Touch</h1>
                 <FormGroup>
-                    <Label sm={3} >Name</Label>
+                    <Label sm={3} for='name'>Name</Label>
                     <Col sm={8}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
@@ -52,7 +52,7 @@ const Contact = () => {
                 </FormGroup>
                 
                 <FormGroup>
-                    <Label sm={3} >Email</Label>
+                    <Label sm={3} for='email'>Email</Label>
                     <Col sm={8}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
@@ -67,7 +67,7 @@ const Contact = () => {
                 </FormGroup>
                
                 <FormGroup>
-                    <Label sm={3} >Subject</Label>
+                    <Label sm={3} for='subject'>Subject</Label>
                     <Col sm={8}>
                         <Input
                             style={{ fontSize: '1.8rem'}}
@@ -82,10 +82,10 @@ const Contact = () => {
                    
                 </FormGroup>
                 <FormGroup>
-                    <Label sm={3} >Message</Label>
+                    <Label sm={3} for='message'>Message</Label>
                     <Col sm={10}>
                         <Input 
-                            style={{ fontSize: '1.8rem', height: '00px'}}
+                            style={{ fontSize: '1.8rem', height: '300px'}}
                             type='textarea'
                             name='message'
                             id='message'

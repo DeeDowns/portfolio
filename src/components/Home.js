@@ -11,7 +11,11 @@ const Home = (props) => {
                 <div className='blurb-container'>
                     <h1>Software Engineer | Life-Long Learner | Not Afraid to Switch it up</h1>
                     <p>
-                       Hi, I'm Dewandra Downs (everyone calls me Dee). After working as Flight Attendant 4 years, I decided I wanted to switch up my career and step into Tech. I come from an unconventional background (definitely not what most would considered geared toward tech) and I have always considered myself a creative person but not so much technical, this journey has taught me that the two are not mutually exclusive. After taking a few introductory courses covering the basics of programming, I found that this FINISH SENTENCE. So I took that leap of faith, enrolled in an immersive Bootcamp, where I worked on multipe teams building projects from different developer roles, learning, growing, and crafting my skillset along the way. I am here to soak up as much information as I can dive deeper into my interest into the industry to become a productive member of a team. 
+                       Hi, my name is Dewandra Downs (everyone calls me Dee), I have been a gymnastics coach, a flight attendant, and now I am a budding software developer. In everything that I do, my goal is to simply help people. Though the method may vary, the mission is the same. Now as I transition into the tech field, I want to build software that makes a positive and meaningful impact on those who use it. 
+                       <br/>
+                       At this point in my tech journey, my goal is to join a company commited to creating purposeful products. A company made up of hard-working individuals who are eager to collaborate with, learn from, and teach those around them. A company that sees more than just a CS degree when considering a potential hire. One that examines the individual as a whole, their journey, their endeavors, and their aspirations. 
+                       <br/>
+                       Overall, I'm aiming to get my foot in the door so I can start helping people, this time as a Software Developer. This website is just a glimpse of me as a dev, if you would like to know more, I'd love to chat. 
                     </p>
                 </div>
             </div>

@@ -8,7 +8,7 @@ const Resume = () => {
         <div className='resume-container'>
             <div className='info-section'>
                 <h1>Dewandra Downs</h1>
-                <h3 style={{color: 'grey'}}>Full Stack Web Devloper</h3>
+                <h3>Full Stack Web Developer</h3>
 
                 <hr/>
 
@@ -67,13 +67,10 @@ const Resume = () => {
                     jobDescription={
                         <ul>
                             <li>
-                                Promoted passenger satisfaction through prompt response times and problem solving issues that arose during flights.
+                                Promoted passenger satisfaction through prompt response times and solving issues that arose during flight.
                             </li>
                             <li>
                                 Facilitated communication between cabin crew and flight deck prior to and during flights to ensure safe and smooth operations.
-                            </li>
-                            <li>
-                                Directed customers in the optimal way to store luggage in order to maximize storage space.
                             </li>
                             <li>
                                 Attended online and in-person customer service, conflict resolution, team work and communication training to stay up to date with procedures.
@@ -92,13 +89,13 @@ const Resume = () => {
                                 Boosted athlete performance through spotting, verbal instruction, and demonstration of gymnastics fundamentals 
                             </li>
                             <li>
-                                Collaborated with a team of coaches to set up lesson plans, lead classes, and supervise children
+                                Collaborated with a team of coaches to set up lesson plans, lead classes, and supervise participants
                             </li>
                             <li>
                                 Maintained fun-filled atmosphere while remaining focused on participant development and safety
                             </li>
                             <li>
-                            Frequented workshops and training to strengthen knowledge of diverse spotting and coaching techniques in order to maximize athlete performance
+                            Frequented workshops to strengthen knowledge of diverse spotting and coaching techniques in order to maximize athlete performance
                             </li>
                         </ul>
                     }

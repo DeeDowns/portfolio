@@ -5,7 +5,7 @@ const Skills = () => {
     
     return (
         <div className='skills-container'>
-            <p>HTML5 | CSS3 | Javascript | React | Node.js | SQLite</p>
+            <p>HTML5 | CSS3 | JavaScript | React | Node.js | SQL | GitHub </p>
         </div>
     )
 }
