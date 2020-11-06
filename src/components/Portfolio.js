@@ -11,7 +11,7 @@ const Portfolio = () => {
                     <CardTitle className='airPrice'>AirPrice</CardTitle>
                     <CardImg src='https://media.giphy.com/media/5dX3dVl7MrJqiioLoC/giphy.gif' alt='gif of user scrolling through website'/>
                     <CardBody>
-                        <CardSubtitle>Web application to calculates the optimal rate of an Airbnb rental based on amenities offered</CardSubtitle>
+                        <CardSubtitle>Web application to calculate the optimal rate of an Airbnb rental based on amenities offered</CardSubtitle>
                         <CardText>
                             Role: React II Developer
                             <br/>
