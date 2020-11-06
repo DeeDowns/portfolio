@@ -20,12 +20,10 @@ function App() {
         <Home />
       </Element>
 
-
+      {/* 
       <Element name='resume' className='element resume'>
         <Resume />
-      </Element>
-
-      <hr className='divider'/>
+      </Element> */}
 
       <Element name='portfolio' className='element portfolio'>
         <Portfolio />

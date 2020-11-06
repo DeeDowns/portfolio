@@ -8,10 +8,10 @@ const Portfolio = () => {
         <div className='portfolio-container'> 
             <CardGroup>
                 <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
-                    <CardTitle>Airbnb Optimal Price Calculator</CardTitle>
+                    <CardTitle className='airPrice'>AirPrice</CardTitle>
                     <CardImg src='https://media.giphy.com/media/5dX3dVl7MrJqiioLoC/giphy.gif' alt='gif of user scrolling through website'/>
                     <CardBody>
-                        <CardSubtitle>Web application that calculates the optimal rate of an Airbnb rental based on amenities offered</CardSubtitle>
+                        <CardSubtitle>Web application to calculates the optimal rate of an Airbnb rental based on amenities offered</CardSubtitle>
                         <CardText>
                             Role: React II Developer
                             <br/>
@@ -22,12 +22,12 @@ const Portfolio = () => {
                             Integrated Data Science API and Back End API into forms to return optimal price data in a user-friendly way
                         </CardText>
                         <CardLink href="https://github.com/DeeDowns/front-end" target='_blank'>Github</CardLink>
-                        {/* <CardLink href="#" target='_blank'>Demo</CardLink> */}
+                        <CardLink href="https://air-price.vercel.app" target='_blank'>Website</CardLink>
                     </CardBody>  
                 </Card>
 
                 <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
-                    <CardTitle>Secret Family Recipes</CardTitle>
+                    <CardTitle className='sfRecipes'>Secret Family Recipes</CardTitle>
                     <CardImg src='https://media3.giphy.com/media/SaOm8ikUyt1kUriyqS/giphy.gif' alt='gif of user scrolling through website documentation'/>
                     <CardBody>
                         <CardSubtitle>Back End API to store and share family recipes</CardSubtitle>
@@ -41,12 +41,12 @@ const Portfolio = () => {
                             Utilized JSON Web Tokens to authorize users upon login 
                         </CardText>
                         <CardLink href="https://github.com/DeeDowns/backend" target='_blank'>Github</CardLink>
-                        <CardLink href="https://documenter.getpostman.com/view/11995468/TVYCBfw1" target='_blank'>Postman Documentation</CardLink>
+                        <CardLink href="https://documenter.getpostman.com/view/11995468/TVYCBfw1" target='_blank'>Documentation</CardLink>
                     </CardBody>  
                 </Card>
 
                 <Card body inverse style={{ backgroundColor: '#27221F', borderColor: '#27221F' }}>
-                    <CardTitle>NASA Photo of the Day</CardTitle>
+                    <CardTitle className='nasaPotd'>NASA Photo of the Day</CardTitle>
                     <CardImg src='https://media.giphy.com/media/Zj6VykMFFc7CKDTUyk/giphy.gif' alt='gif of user scrolling through website'/>
                     <CardBody>
                         

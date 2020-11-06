@@ -25,14 +25,18 @@ const Navigation = () => {
                         <p>Home</p>
                     </Link>
 
-                    <Link 
+                    {/* <Link 
                         to="resume" 
                         spy={true} 
                         smooth={true} 
                         duration={500}
                     >
                         <p>Resume</p>
-                    </Link>
+                    </Link> */}
+
+                    <a href={require('../assets/dewandra_downs_resume-1.pdf')} target='_blank' rel="noopener noreferrer"> 
+                        <p>Resume</p> 
+                    </a>
 
                     <Link 
                         to="portfolio" 
