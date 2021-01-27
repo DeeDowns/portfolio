@@ -6,7 +6,7 @@ const Home = (props) => {
         <div className ='home-container'>
             <div className= 'home-div'>
                 <div className='photo-container'>
-                    <img src='https://ca.slack-edge.com/ESZCHB482-W013NQ2U1F1-c896d4be006d-512' alt='black and white avatar'/>
+                    <img src={require('../assets/bw-portrait.jpeg')} alt='black and white portrait'/>
                 </div>
                 <div className='blurb-container'>
                     <h1>Software Developer | Life-Long Learner | Not Afraid to Be Seen Trying</h1>
