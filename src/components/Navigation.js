@@ -34,7 +34,7 @@ const Navigation = () => {
                         <p>Resume</p>
                     </Link> */}
 
-                    <a href={require('../assets/dewandra_downs_resume-2.pdf')} target='_blank' rel="noopener noreferrer"> 
+                    <a href={require('../assets/dewandra_downs_resume-4.pdf')} target='_blank' rel="noopener noreferrer"> 
                         <p>Resume</p> 
                     </a>
 
